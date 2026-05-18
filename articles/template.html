@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ===== 改这里：文章标题 ===== -->
+  <title>文章标题 — 知汇门</title>
+  <!-- ===== 改这里：文章描述（搜索引擎和社交分享显示用） ===== -->
+  <meta name="description" content="文章摘要，一两句话描述这篇文章讲什么。">
+  <!-- ===== 改这里：关键词 ===== -->
+  <meta name="keywords" content="关键词1,关键词2,关键词3">
+  <!-- ===== 改这里：Open Graph 社交分享信息 ===== -->
+  <meta property="og:title" content="文章标题">
+  <meta property="og:description" content="文章摘要">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://你的域名.com/articles/这篇文章的文件名.html">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- ========== 顶部导航 ========== -->
+<header class="navbar">
+  <div class="container">
+    <a href="../index.html" class="nav-logo">知汇门</a>
+    <nav class="nav-links" id="nav-links">
+      <a href="../channels/game.html">游戏攻略</a>
+      <a href="../channels/knowledge.html">知识课程</a>
+      <a href="../channels/life.html">生活分享</a>
+      <a href="../channels/movie.html">影视推荐</a>
+      <a href="../channels/software.html">软件工具</a>
+      <a href="../channels/resources.html">资源导航</a>
+      <a href="../channels/tech.html">科技数码</a>
+      <a href="../channels/reading.html">读书写作</a>
+    </nav>
+    <div class="nav-actions">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" placeholder="搜索文章..." autocomplete="off">
+        <div class="search-results" id="search-results"></div>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="切换暗色模式">🌙</button>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ========== 主要内容区 ========== -->
+<main class="main-content">
+  <div class="container">
+
+    <article class="article-detail">
+
+      <!-- ===== 面包屑导航 ===== -->
+      <!-- ===== 改这里：频道链接和频道名 ===== -->
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">首页</a> &rsaquo;
+          <a href="../channels/game.html">游戏攻略</a> &rsaquo;
+          <span>文章标题</span>
+        </div>
+        <h1>文章标题</h1>
+        <div class="article-meta">
+          <!-- ===== 改这里：频道标签和发布日期 ===== -->
+          <span class="card-tag tag-game">游戏攻略</span>
+          <span>📅 2026-05-18</span>
+          <span>✍️ 知汇门</span>
+        </div>
+      </div>
+
+      <!-- ===== 广告位A：顶部小横幅（试验位，初期隐藏） ===== -->
+      <div class="ad-slot ad-top" style="display:none;"></div>
+
+      <!-- ===== 文章正文 ===== -->
+      <!--
+      ========================================
+      写文章指南：
+      1. 每个段落用 <p>...</p> 包裹
+      2. 小标题用 <h2>...</h2> 或 <h3>...</h3>
+      3. 要加粗用 <strong>...</strong>
+      4. 贴代码用 <pre><code>...</code></pre>
+      5. 引用用 <blockquote>...</blockquote>
+      6. 列表用 <ul><li>...</li></ul>
+      7. 插图用 <img src="图片地址" alt="描述">
+      ========================================
+      -->
+      <div class="article-body">
+
+        <!-- === 引言（2-3段） === -->
+        <p>这里是文章的第一段，用来抓住读者的注意力。介绍这篇文章要讲什么，读者能学到什么。</p>
+
+        <p>这里是第二段，进一步铺垫背景信息，让读者对话题产生兴趣。</p>
+
+        <!-- ===== 广告位B：中段横幅（初期隐藏） ===== -->
+        <div class="ad-slot ad-mid" style="display:none;"></div>
+
+        <!-- === 正文主体 === -->
+        <h2>第一个小标题</h2>
+
+        <p>这里是核心内容的第一个部分。展开讲细节、步骤、方法等。段落不宜过长，保持可读性。</p>
+
+        <p>继续深入讲解。可以配合例子、数据、个人经验来增强说服力。</p>
+
+        <h2>第二个小标题</h2>
+
+        <p>继续分享更多内容。好的教程类文章通常包含 3-5 个小标题，每个小标题下 2-4 段文字。</p>
+
+        <blockquote>
+          这是一段引用。可以用来强调重点，或引用他人观点。引用块会自动加上左侧蓝色边框。
+        </blockquote>
+
+        <!-- 代码示例 -->
+        <pre><code>// 这里是代码块
+function hello() {
+    console.log("Hello, 知汇门！");
+}</code></pre>
+
+        <h2>总结</h2>
+
+        <p>文章结尾，回顾要点，给读者一个清晰的总结或行动建议。</p>
+
+        <!-- ===== 广告位C：底部方块（初期隐藏） ===== -->
+        <div class="ad-slot ad-bottom" style="display:none;"></div>
+
+      </div>
+
+      <!-- ===== 社交分享按钮 ===== -->
+      <div class="share-buttons">
+        <span class="share-label">分享到：</span>
+        <button class="share-btn share-copy" title="复制链接">🔗</button>
+      </div>
+
+      <!-- ===== 文章底部导航 ===== -->
+      <div class="article-footer-nav">
+        <!-- ===== 改这里：上一篇/下一篇链接 ===== -->
+        <a href="../channels/game.html">← 返回游戏攻略频道</a>
+        <a href="../index.html">返回首页 →</a>
+      </div>
+
+      <!-- ===== 相关文章推荐 ===== -->
+      <div class="related-articles">
+        <h2 class="section-title">📎 相关文章</h2>
+        <div class="mini-list">
+          <!-- ===== 改这里：换成实际相关文章链接 ===== -->
+          <a href="hello-world.html">欢迎来到知汇门！</a>
+        </div>
+      </div>
+
+    </article>
+
+  </div>
+</main>
+
+<!-- ========== 页脚 ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <span>&copy; 2026 知汇门 — 发现好内容</span>
+    <div class="footer-links">
+      <a href="../index.html">首页</a>
+      <a href="../sitemap.xml">站点地图</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== 回到顶部 ========== -->
+<button class="back-to-top" id="back-to-top" aria-label="回到顶部">↑</button>
+
+<!-- ========== 文章索引 ========== -->
+<script>
+  window.__ARTICLE_INDEX__ = [
+    {
+      title: "欢迎来到知汇门！从这里开始你的探索之旅",
+      excerpt: "这是知汇门的第一篇文章，了解如何使用这个网站。",
+      channel: "游戏攻略",
+      tags: ["入门", "指南"],
+      url: "../articles/hello-world.html"
+    }
+    // 新文章发布后记得在这里添加条目
+  ];
+</script>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /articles/template.html
+
+Sitemap: https://你的域名.com/sitemap.xml

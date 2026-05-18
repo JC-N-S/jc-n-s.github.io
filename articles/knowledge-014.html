@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL数据库查询入门：7天掌握核心语法 — 知汇门</title>
+  <meta name="description" content="7天SQL学习计划，从SELECT到JOIN到子查询，每天一个小阶段，快速掌握数据分析必备的数据库查询技能。">
+  <meta name="keywords" content="SQL入门,数据库查询,SQL教程,数据分析,MySQL">
+  <meta property="og:title" content="SQL数据库查询入门：7天掌握核心语法">
+  <meta property="og:description" content="7天SQL学习计划，快速掌握数据库查询核心技能。">
+  <meta property="og:type" content="article">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="navbar"><div class="container">
+  <a href="../index.html" class="nav-logo">知汇门</a>
+  <nav class="nav-links" id="nav-links">
+    <a href="../channels/game.html">游戏攻略</a><a href="../channels/knowledge.html">知识课程</a><a href="../channels/life.html">生活分享</a>
+    <a href="../channels/movie.html">影视推荐</a><a href="../channels/software.html">软件工具</a>
+    <a href="../channels/resources.html">资源导航</a><a href="../channels/tech.html">科技数码</a><a href="../channels/reading.html">读书写作</a>
+  </nav>
+  <div class="nav-actions">
+    <div class="search-box"><span class="search-icon">🔍</span><input type="text" id="search-input" placeholder="搜索文章..." autocomplete="off"><div class="search-results" id="search-results"></div></div>
+    <button class="theme-toggle" id="theme-toggle" aria-label="切换暗色模式">🌙</button>
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
+  </div>
+</div></header>
+<main class="main-content"><div class="container">
+  <article class="article-detail">
+    <div class="article-header">
+      <div class="breadcrumb"><a href="../index.html">首页</a> &rsaquo; <a href="../channels/knowledge.html">知识课程</a> &rsaquo; <span>SQL数据库查询入门</span></div>
+      <h1>SQL数据库查询入门：7天掌握核心语法，数据分析师的必经之路</h1>
+      <div class="article-meta"><span class="card-tag tag-knowledge">知识课程</span><span>📅 2026-05-18</span><span>✍️ 知汇门</span></div>
+    </div>
+    <div class="ad-slot ad-top" style="display:none;"></div>
+    <div class="article-body">
+      <p>SQL（Structured Query Language）是和数据打交道的通用语言。不论你是做数据分析、产品运营、后端开发还是财务审计，能用SQL从数据库中直接获取和分析数据都是一个极具竞争力的技能。好消息是，SQL的入门门槛极低——核心语法只用一周就能掌握并投入使用。</p>
+      <p>本文提供一个7天的学习路线，每天大约45-60分钟，包含学习内容和练习建议。推荐使用SQLite或在线SQL练习平台（如SQLiteOnline、LeetCode数据库题库）配合练习。</p>
+      <div class="ad-slot ad-mid" style="display:none;"></div>
+      <h2>第1-2天：SELECT和WHERE</h2>
+      <p>SQL的核心就一句话：从某个表中查出符合条件的数据。所以第一天只学两个关键词：<strong>SELECT</strong>（选择哪些列）和<strong>FROM</strong>（从哪张表）。最简单的查询是"SELECT * FROM students;"——查看students表中的所有数据。</p>
+      <p>第二天加入<strong>WHERE</strong>（条件筛选）。这是日常使用最频繁的子句。"SELECT * FROM orders WHERE amount > 100 AND status = 'completed';"——查询所有金额大于100且状态为已完成的订单。AND、OR、IN、BETWEEN这些组合操作符的用法要在第二天练熟。</p>
+      <h2>第3天：聚合函数和GROUP BY</h2>
+      <p>数据分析的核心操作：汇总统计。重点掌握<strong>COUNT、SUM、AVG、MAX、MIN</strong>五个聚合函数，以及<strong>GROUP BY</strong>分组操作。"SELECT department, AVG(salary) FROM employees GROUP BY department;"——按部门分组统计平均薪资。配合HAVING做分组后的条件筛选（WHERE筛选行，HAVING筛选组）。</p>
+      <h2>第4天：JOIN连接查询</h2>
+      <p>这是SQL从"会"到"熟"的关键门槛。真实数据库中数据分散在多张关联表里，JOIN让你能把它们关联起来。重点掌握<strong>INNER JOIN</strong>（取两张表的交集），理解LEFT JOIN和RIGHT JOIN的区别。用一个实际例子练习：订单表和客户表关联，查出每个订单对应的客户姓名和联系方式。</p>
+      <h2>第5天：排序、限制和去重</h2>
+      <p><strong>ORDER BY</strong>排序（DESC降序）、<strong>LIMIT</strong>限制返回行数（分页查询常用）、<strong>DISTINCT</strong>去重。这三个子句配合前面学的内容，构成90%的业务查询需求。</p>
+      <h2>第6天：子查询和CASE WHEN</h2>
+      <p><strong>子查询</strong>是在一个查询内部嵌套另一个查询。常见场景：查出高于平均工资的员工，子查询先算出平均工资，外层查询再筛选。"SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);"<strong>CASE WHEN</strong>实现条件分类，类似于Excel中的IF函数。</p>
+      <h2>第7天：综合练习与实战场景</h2>
+      <p>找一份公开的示例数据库（如MySQL自带的world数据库或Kaggle上的公开数据集），针对真实业务问题写SQL：找出销售额最高的三个产品类别、统计每月新增用户数、计算复购率。把前几天学的所有知识点在真实数据上串联一遍。</p>
+      <p>学完这7天，你已经具备了独立完成日常数据查询工作的能力。SQL的美妙之处在于它的语法极为稳定——你30年前写的SQL语句今天照样能跑。投入一周时间学习一项能使用一辈子的技能，这是非常划算的时间投资。</p>
+      <div class="ad-slot ad-bottom" style="display:none;"></div>
+    </div>
+    <div class="article-footer-nav">
+      <a href="knowledge-013.html">← 上一篇</a>
+      <a href="knowledge-015.html">下一篇文章 →</a>
+    </div>
+    <div class="related-articles">
+      <h2 class="section-title">📎 相关文章</h2>
+      <div class="mini-list">
+        <a href="knowledge-001.html">零基础学编程</a>
+        <a href="knowledge-002.html">Python入门教程</a>
+        <a href="knowledge-008.html">Excel高效技巧</a>
+      </div>
+    </div>
+  </article>
+</div></main>
+<footer class="site-footer"><div class="container">
+  <span>&copy; 2026 知汇门 — 发现好内容</span>
+  <div class="footer-links"><a href="../index.html">首页</a><a href="../sitemap.xml">站点地图</a></div>
+</div></footer>
+<button class="back-to-top" id="back-to-top" aria-label="回到顶部">↑</button>
+<script>
+window.__ARTICLE_INDEX__=[
+  {title:"SQL数据库查询入门：7天掌握核心语法",excerpt:"7天SQL学习计划，快速掌握数据查询。",channel:"知识课程",tags:["SQL","数据库","数据分析"],url:"../articles/knowledge-014.html"},
+  {title:"Figma UI设计入门教程",excerpt:"从零画出第一个App界面。",channel:"知识课程",tags:["Figma","UI设计"],url:"../articles/knowledge-013.html"},
+  {title:"如何利用碎片时间每天学习1小时",excerpt:"识别和高效利用碎片时间。",channel:"知识课程",tags:["碎片时间","时间管理"],url:"../articles/knowledge-012.html"}
+];
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>

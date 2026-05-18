@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>知汇门 — 发现好内容</title>
+    <link>https://你的域名.com/</link>
+    <description>涵盖游戏攻略、知识课程、生活分享、影视推荐、软件工具、资源导航、科技数码、读书写作等 8 大频道的内容门户。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 18 May 2026 08:00:00 +0800</lastBuildDate>
+    <atom:link href="https://你的域名.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>2026年Steam夏促必买游戏推荐：这20款游戏史低价不容错过</title>
+      <link>https://你的域名.com/articles/game-001.html</link>
+      <description>Steam夏促必买推荐，20款史低价游戏，涵盖动作、RPG、独立游戏等多个类型。</description>
+      <category>游戏攻略</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/game-001.html</guid>
+    </item>
+    <item>
+      <title>零基础学编程：2026年最佳学习路径</title>
+      <link>https://你的域名.com/articles/knowledge-001.html</link>
+      <description>2026年编程学习最佳路径，从零基础到就业的完整规划。</description>
+      <category>知识课程</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/knowledge-001.html</guid>
+    </item>
+    <item>
+      <title>上班族省钱攻略：每月轻松省下1000元的实用技巧</title>
+      <link>https://你的域名.com/articles/life-001.html</link>
+      <description>每月轻松省下1000元，上班族必备的省钱技巧合集。</description>
+      <category>生活分享</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/life-001.html</guid>
+    </item>
+    <item>
+      <title>2026年豆瓣评分最高的10部电影推荐</title>
+      <link>https://你的域名.com/articles/movie-001.html</link>
+      <description>2026年豆瓣评分最高的10部电影，涵盖剧情、科幻、动画等多种类型。</description>
+      <category>影视推荐</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/movie-001.html</guid>
+    </item>
+    <item>
+      <title>10个提高工作效率的免费在线工具推荐</title>
+      <link>https://你的域名.com/articles/software-001.html</link>
+      <description>10个完全免费的在线工具，涵盖文档处理、图片编辑、文件转换等场景。</description>
+      <category>软件工具</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/software-001.html</guid>
+    </item>
+    <item>
+      <title>设计师必备的免费素材网站合集</title>
+      <link>https://你的域名.com/articles/resources-001.html</link>
+      <description>设计师常用的免费素材资源汇总，从此素材不求人。</description>
+      <category>资源导航</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/resources-001.html</guid>
+    </item>
+    <item>
+      <title>2026年性价比最高的手机推荐：1000-5000元全覆盖</title>
+      <link>https://你的域名.com/articles/tech-001.html</link>
+      <description>从千元到旗舰，帮你找到最适合的手机。</description>
+      <category>科技数码</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/tech-001.html</guid>
+    </item>
+    <item>
+      <title>2026年最值得读的10本书：涵盖各领域的必读书单</title>
+      <link>https://你的域名.com/articles/reading-001.html</link>
+      <description>精选各领域好书帮你构建知识体系。</description>
+      <category>读书写作</category>
+      <pubDate>Sun, 18 May 2026 08:00:00 +0800</pubDate>
+      <guid>https://你的域名.com/articles/reading-001.html</guid>
+    </item>
+  </channel>
+</rss>

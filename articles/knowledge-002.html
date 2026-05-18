@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python入门教程：环境安装到第一个项目 — 知汇门</title>
+  <meta name="description" content="手把手Python入门教程，从安装解释器和编辑器，到写出第一个命令行工具，全程零基础友好。">
+  <meta name="keywords" content="Python教程,Python入门,编程环境,VSCode,Python安装">
+  <meta property="og:title" content="Python入门教程：环境安装到第一个项目">
+  <meta property="og:description" content="从安装解释器和编辑器到写出第一个命令行工具。">
+  <meta property="og:type" content="article">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="navbar"><div class="container">
+  <a href="../index.html" class="nav-logo">知汇门</a>
+  <nav class="nav-links" id="nav-links">
+    <a href="../channels/game.html">游戏攻略</a><a href="../channels/knowledge.html">知识课程</a><a href="../channels/life.html">生活分享</a>
+    <a href="../channels/movie.html">影视推荐</a><a href="../channels/software.html">软件工具</a>
+    <a href="../channels/resources.html">资源导航</a><a href="../channels/tech.html">科技数码</a><a href="../channels/reading.html">读书写作</a>
+  </nav>
+  <div class="nav-actions">
+    <div class="search-box"><span class="search-icon">🔍</span><input type="text" id="search-input" placeholder="搜索文章..." autocomplete="off"><div class="search-results" id="search-results"></div></div>
+    <button class="theme-toggle" id="theme-toggle" aria-label="切换暗色模式">🌙</button>
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
+  </div>
+</div></header>
+<main class="main-content"><div class="container">
+  <article class="article-detail">
+    <div class="article-header">
+      <div class="breadcrumb"><a href="../index.html">首页</a> &rsaquo; <a href="../channels/knowledge.html">知识课程</a> &rsaquo; <span>Python入门教程</span></div>
+      <h1>Python入门教程：从环境安装到第一个项目，手把手带你写代码</h1>
+      <div class="article-meta"><span class="card-tag tag-knowledge">知识课程</span><span>📅 2026-05-18</span><span>✍️ 知汇门</span></div>
+    </div>
+    <div class="ad-slot ad-top" style="display:none;"></div>
+    <div class="article-body">
+      <p>Python是公认最适合零基础入门的编程语言。本文不讲枯燥理论，直接带你完成两步：把Python装到电脑上、写出第一个实用的小项目。只要你跟着操作一遍，这篇文章走完你就正式入门了。</p>
+      <div class="ad-slot ad-mid" style="display:none;"></div>
+      <h2>第一步：安装Python和编辑器</h2>
+      <p>前往python.org下载最新的Python 3.12版本。安装时<strong>务必勾选"Add Python to PATH"</strong>，这一步决定了你能否在命令行中直接使用python命令。安装完成后，打开命令提示符输入"python --version"，看到版本号就说明安装成功。</p>
+      <p>编辑器强烈推荐<strong>VSCode</strong>（Visual Studio Code），它是目前最流行且完全免费的代码编辑器。从code.visualstudio.com下载安装后，点击左侧扩展图标，搜索并安装"Python"扩展（微软官方出品）。安装后VSCode就具备了代码补全、语法检查、调试等全套Python开发功能。</p>
+      <p>创建一个项目文件夹（比如D盘的"my-python-projects"），在VSCode中打开这个文件夹，新建一个文件命名为"hello.py"。在文件中输入"print('Hello，世界！')"，按F5运行，看到输出就说明环境配置完全成功。</p>
+      <h2>第二步：写一个实用的待办事项工具</h2>
+      <p>环境准备好之后，我们写一个可以在命令行中管理待办事项的小程序。这不仅是一个练习，更是一个你写完就能实际使用的工具。</p>
+      <p>功能很简单：可以添加任务、查看所有任务、标记任务已完成。代码如下（建议你亲自敲一遍，不要直接复制粘贴——敲代码是建立肌肉记忆的过程）：</p>
+      <p>创建一个新文件"todo.py"，定义一个空列表存储任务。然后写一个while循环显示菜单让用户选择操作。用input()函数接收用户的输入，根据输入执行对应的操作：选择1就添加新任务到列表，选择2就遍历列表打印任务，选择3就输入编号标记完成状态。循环中加入退出选项。</p>
+      <p>这个项目虽小，但涵盖了一个完整程序的全部要素：数据存储（列表）、用户交互（input/print）、流程控制（while/if）、函数组织（把每个操作封装成函数）。掌握了这些，你就有了所有编程项目的骨架。</p>
+      <h2>学完这个之后学什么</h2>
+      <p>完成待办事项工具后，你已经有了基本的编程手感。接下来推荐的进阶路线是：学习用pip安装第三方库（如Requests库做网络请求、Pandas做数据处理）→ 尝试Flask框架做一个简单的网页应用 → 学习Git管理你的代码版本。</p>
+      <p>整个入门阶段的核心心法是<strong>"先会用，再理解"</strong>。很多概念在第一次接触时不可能完全理解，没关系，先用起来，随着经验积累你会逐渐理解它们背后的原理。不要让"我想彻底弄懂"成为拖延的借口。</p>
+      <div class="ad-slot ad-bottom" style="display:none;"></div>
+    </div>
+    <div class="article-footer-nav">
+      <a href="knowledge-001.html">← 上一篇</a>
+      <a href="knowledge-003.html">下一篇文章 →</a>
+    </div>
+    <div class="related-articles">
+      <h2 class="section-title">📎 相关文章</h2>
+      <div class="mini-list">
+        <a href="knowledge-001.html">零基础学编程：2026年最佳学习路径</a>
+        <a href="knowledge-014.html">SQL数据库查询入门</a>
+        <a href="knowledge-008.html">Excel高效技巧：10个职场必备函数</a>
+      </div>
+    </div>
+  </article>
+</div></main>
+<footer class="site-footer"><div class="container">
+  <span>&copy; 2026 知汇门 — 发现好内容</span>
+  <div class="footer-links"><a href="../index.html">首页</a><a href="../sitemap.xml">站点地图</a></div>
+</div></footer>
+<button class="back-to-top" id="back-to-top" aria-label="回到顶部">↑</button>
+<script>
+window.__ARTICLE_INDEX__=[
+  {title:"Python入门教程：环境安装到第一个项目",excerpt:"从安装到写出第一个命令行工具。",channel:"知识课程",tags:["Python","入门","教程"],url:"../articles/knowledge-002.html"},
+  {title:"零基础学编程：2026年最佳学习路径",excerpt:"从零入门编程的高效路线图。",channel:"知识课程",tags:["编程","Python"],url:"../articles/knowledge-001.html"}
+];
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>
